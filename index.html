@@ -9,6 +9,25 @@
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
+    <main>
+      <div class="video">
+        <video autoplay loop muted>
+          <source src="./assets/video.mp4" type="video/mp4" />
+          This browser doesn't support this video.
+        </video>
+        <h1 class="title">Video Project</h1>
+      </div>
+
+      <div class="toggle-container">
+        <label for="toggle" class="visually-hidden">Play /Pause video</label>
+        <input type="checkbox" id="toggle" />
+        <div class="slider"></div>
+      </div>
+
+      <div class="preloader">
+        <img src="./assets/preloader.gif" alt="" />
+      </div>
+    </main>
     <!-- javascript -->
     <script src="./js/index.js"></script>
   </body>
