@@ -58,7 +58,7 @@ video {
   top: 85%;
   left: 10%;
   display: inline-block;
-  width: 100px;
+  width: 108px;
   height: 30px;
   color: blue;
   background-color: white;
@@ -90,7 +90,7 @@ input {
   left: 2px;
   top: 1px;
   content: "";
-  width: 46px;
+  width: 48px;
   height: 28px;
   background-color: #49a6e9;
   border-radius: 6px;
@@ -107,7 +107,7 @@ input {
 }
 
 input:checked + .slider::before {
-  transform: translateX(50px);
+  transform: translateX(54px);
 }
 
 input:checked + .slider::after {
